@@ -1,0 +1,35 @@
+{
+    "name": "phyling",
+    "version": "0.0.1",
+    "shortDescription": "PHYling is a package of scripts to extract phylogenomic markers",
+    "longDescription": "PHYling is a package of scripts to extract phylogenomic markers",
+    "available": true,
+    "checkpointable": false,
+    "defaultMemoryPerNode": 32,
+    "defaultProcessorsPerNode": 16,
+    "defaultMaxRunTime": "12:00:00",
+    "defaultNodeCount": 1,
+    "defaultQueue": "normal",
+    "deploymentPath": "kyclark/applications/phyling-0.0.1/stampede",
+    "deploymentSystem": "data.iplantcollaborative.org",
+    "executionSystem": "tacc-stampede2-kyclark",
+    "executionType": "HPC",
+    "helpURI": "google.com",
+    "label": "PHYling",
+    "parallelism": "SERIAL",
+    "templatePath": "template.sh",
+    "testPath": "test.sh",
+    "modules": [
+        "load tacc-singularity"
+    ],
+    "tags": [
+        "imicrobe",
+        "fungus"
+    ],
+    "ontology": [
+        "http://sswapmeet.sswap.info/agave/apps/Application"
+    ],
+    "inputs": [],
+    "parameters": [],
+    "outputs": []
+}
